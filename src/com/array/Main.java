@@ -27,7 +27,6 @@ public class Main {
         // Filling array with values
         int count = 0;
         for (int index = 0; index < array.length; index++){
-            System.out.println(array.length);
             for (int index1 = 0; index1 < array [index].length; index1++){
                 array [index][index1] = count++;
             }
